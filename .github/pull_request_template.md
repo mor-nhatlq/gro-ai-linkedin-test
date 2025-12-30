@@ -1,30 +1,35 @@
-## 📄 Feature Document
 ## 🛠️ Type of Change
 - [ ] 🐛 Bug fix
 - [ ] ✨ New feature
 - [ ] 💥 Breaking change
 - [ ] ♻️ Refactor
 
-## 🛡️ Definition of Done (DoD)
+## 📄 Information
+- **FRD**: [Enter the FRD document name or link here]
+- **Jira Ticket**: [Enter MOR Jira ticket link here]
+- **Change Summary**: [Provide a brief summary of the changes made in this PR]
+- **Evidence**: [Optional, link to any relevant evidence, e.g., screenshots, videos, logs]
+
+## ✅ Definition of Done (DoD)
 
 ### 1. Development & Code Quality
-- [ ] **Linting & Formatting**: Code passes `ESLint` and `Prettier` check with no errors.
-- [ ] **Nx Architecture**: Code respects Nx library boundaries (e.g., `ui-shared`, `data-access`) and dependency graph.
-- [ ] **Clean Code**: No `console.log`, commented-out code, or temporary "TODO" comments.
-- [ ] **Kino AI**: PR has passed Kino AI analysis (conventions & security).
+- [ ] **Linting**: Code passes `ESLint` and `Prettier` check with no errors.
+- [ ] **Clean Code**: No `console.log`, commented-out code, or "TODO" comments.
+- [ ] **Code Review**: PR has passed Kino AI analysis.
 - [ ] **Peer Review**: Approved by at least one other developer.
 
 ### 2. Functional Compliance
-- [ ] **FR Fulfillment**: All "Functional Requirements" (FR-x) from the doc are implemented.
-- [ ] **AC Satisfaction**: Meets all "Acceptance Criteria" listed in the document.
-- [ ] **NFR Compliance**: Meets "Non-Functional Requirements" (performance, UI style, etc.).
-- [ ] **Scope Adherence**: Strictly follows "In Scope" items (no scope creep).
+- [ ] **FRD**: All requirements from FRD are implemented.
+- [ ] **Acceptance Criteria**: Feature meets all "Acceptance Criteria" listed in the document.
+- [ ] **Self-Testing**: Developer has self-tested the feature against Document AC + Internal AC + base/highlighted Test Cases.
+- [ ] **Non-functional Requirements**: Meets "Non-Functional Requirements" (performance, UI style, etc.).
+- [ ] **Scope**: Strictly follows "In Scope" items, no "Out of scope" items should be implemented.
 
 ### 3. Testing & QA Handoff
-- [ ] **Unit Tests**: Critical logic (NestJS services / React hooks) has Jest test coverage.
-- [ ] **Dev Deployment**: Merged to `dev` and deployed without breaking the build.
+- [ ] **Automated Tests**: Successfully ran Automated/E2E tests with all tests passing.
+- [ ] **Build**: Successfully built the project without errors.
 - [ ] **QA Verification**: Verified by QA against Document AC + Internal AC + Test Cases.
 - [ ] **Bug Resolution**: All bugs reported by QA are resolved.
 
 ### 4. Documentation
-- [ ] **Tech Docs**: README or Swagger/OpenAPI updated (if new endpoints/components were added).
+- [ ] **Tech Docs**: Update README, Swagger and Wiki if new endpoints/components were added.
