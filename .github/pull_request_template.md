@@ -17,6 +17,7 @@
 - [ ] **Clean Code**: No `console.log`, commented-out code, or "TODO" comments.
 - [ ] **Code Review**: PR has passed Kino AI analysis.
 - [ ] **Peer Review**: Approved by at least one other developer.
+- [ ] **Browser Compatibility**: Works on all supported browsers (Chrome, Safari, Edge).
 
 ### 2. Functional Compliance
 - [ ] **FRD**: All requirements from FRD are implemented.
